@@ -1,0 +1,33 @@
+# 我的opencv学习笔记
+opencv主要可以划分成一个个功能模块：
+1. 核心模块（core module）；
+
+2. 图像处理模块（imgproc module）；
+
+3. 图形用户界面模块（highgui module）；
+
+4. 读写图像模块（imgcodecs module）；
+
+5. 读写视频模块（videoio module）；
+
+6. 相机几何与3d重建模块（calib3d module）；
+
+7. 特征检测模块（feature2d module）；
+
+8. 视频分析模块（video module）；
+
+9. 物体检测模块（objdetect module）；
+
+10. 深度神经网络模块（dnn module）；
+
+11. 机器学习模块（ml module）；
+
+还有一些其他模块，等到我熟悉一点了在加上。
+
+## 初始工作
+从`001~003`是三个介绍性的工作，主要是一些如何安装、使用opencv等的说明。
+
+## 核心模块（core module）
+这部分主要是一些库的基本构建块的了解，比如说Mat类型的详细讲解，通过这一部分的学习，我们将知道如何从像素级别操作图像。
+
+

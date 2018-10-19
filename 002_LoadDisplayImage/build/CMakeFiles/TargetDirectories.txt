@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/002_LoadDisplayImage/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/002_LoadDisplayImage/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/002_LoadDisplayImage/build/CMakeFiles/DisplayImage.dir

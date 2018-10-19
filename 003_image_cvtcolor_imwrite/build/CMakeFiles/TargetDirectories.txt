@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/003_image_cvtcolor_imwrite/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/003_image_cvtcolor_imwrite/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/003_image_cvtcolor_imwrite/build/CMakeFiles/cvtcolor_imread.dir
