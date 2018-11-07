@@ -45,7 +45,7 @@ A.copyTo(G);
 ![tutorial_how_matrix_stored_1](opencv-mat/tutorial_how_matrix_stored_1.png)
 
 下面这张图是**BGR颜色空间**的组织形式，每个大列下会有三个小列依次代表着三种颜色通道（分别是B、G、R），其实就是每个像素由三个`uchar`组成（假设`data_type`是`uchar`）：
-![tutorial_how_matrix_stored_2](opencv-mat/ttutorial_how_matrix_stored_2.png)
+![tutorial_how_matrix_stored_2](opencv-mat/tutorial_how_matrix_stored_2.png)
 
 > 无论Mat是几通道的颜色空间，其矩阵都是两维的。只是两维矩阵的每一个元素的大小是`通道数*数据类型的大小`，即在一个元素中，各通道依次存储。同时有一点需要说明，如果内存足够大，在载入图像时，便会将下一行紧随着上一行存储，所以最后有可能**整幅图像存成了一行**。这种情况是可以帮我们提升扫描速度的（按照一维方式扫描只需要获得一次行首指针），我们可以使用opencv提供的`cv::Mat::isContinuous()`函数来确定是否是连续存储的。
 

@@ -30,6 +30,8 @@ int icolor = (unsigned) rng;
 //在１～１００间随机生成一个数赋值给ｉ
 int i  = rng.uniform( 1, 100 );
 ```
+***
+其中`uniform`代表均匀分布，`RNG`还能生成一些其他分布的数，比如`gaussian`代表高斯分布。
 
 ## 在一张图上打印字符串
 使用函数`putText`(定义在improc模块)。
