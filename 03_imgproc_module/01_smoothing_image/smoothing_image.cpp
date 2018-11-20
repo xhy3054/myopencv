@@ -60,7 +60,7 @@ int main( int argc, char ** argv )
         return 0;
     }
 
-    //![blur]
+    //![blur]逐渐加大滤波器尺寸，１～３１,每次递增２
     for ( int i = 1; i < MAX_KERNEL_LENGTH; i = i + 2 )
     {
         blur( src, dst, Size( i, i ), Point(-1,-1) );
@@ -142,7 +142,7 @@ int display_caption( const char* caption )
 }
 
 /**
- * @function display_dst
+ * @function display_dst每副处理结果显示delay毫秒
  */
 int display_dst( int delay )
 {

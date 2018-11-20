@@ -1,10 +1,12 @@
 # 我的opencv学习笔记
 opencv主要可以划分成一个个功能模块：
-1. 核心模块（core module）；
+0. [准备工作](01_prepared_introduction/README.md)
 
-2. 图像处理模块（imgproc module）；
+1. [核心模块（core module）](02_core_module/README.md)；
 
-3. 图形用户界面模块（highgui module）；
+2. [图像处理模块（imgproc module）](03_imgproc_module/README.md)；
+
+3. [图形用户界面模块（highgui module）](04_highgui_module/README.md)；
 
 4. 读写图像模块（imgcodecs module）；
 
