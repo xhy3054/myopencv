@@ -12,7 +12,7 @@ using namespace std;
 int main(int argc, char** argv)
 {
     //![load]
-    const char* filename = argc >=2 ? argv[1] : "../data/smarties.png";
+    const char* filename = argc >=2 ? argv[1] : "../../data/circle.png";
 
     // Loads an image
     Mat src = imread( filename, IMREAD_COLOR );
@@ -25,16 +25,16 @@ int main(int argc, char** argv)
     }
     //![load]
 
-    //![convert_to_gray]
+    // 灰度图
     Mat gray;
     cvtColor(src, gray, COLOR_BGR2GRAY);
     //![convert_to_gray]
 
-    //![reduce_noise]
+    // 中值滤波
     medianBlur(gray, gray, 5);
     //![reduce_noise]
 
-    //![houghcircles]
+    // 霍夫变换检测圆
     vector<Vec3f> circles;
     HoughCircles(gray, circles, HOUGH_GRADIENT, 1,
                  gray.rows/16,  // change this value to detect circles with different distances to each other
@@ -43,16 +43,16 @@ int main(int argc, char** argv)
     );
     //![houghcircles]
 
-    //![draw]
+    // 画出圆
     for( size_t i = 0; i < circles.size(); i++ )
     {
         Vec3i c = circles[i];
         Point center = Point(c[0], c[1]);
         // circle center
-        circle( src, center, 1, Scalar(0,100,100), 3, LINE_AA);
+        circle( src, center, 1, Scalar(0,0,0), 3, LINE_AA);
         // circle outline
         int radius = c[2];
-        circle( src, center, radius, Scalar(255,0,255), 3, LINE_AA);
+        circle( src, center, radius, Scalar(0,0,0), 3, LINE_AA);
     }
     //![draw]
 

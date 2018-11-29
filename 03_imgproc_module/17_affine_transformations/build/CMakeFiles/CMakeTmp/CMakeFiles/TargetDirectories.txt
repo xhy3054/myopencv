@@ -1,0 +1,3 @@
+/home/xhy/cv/myopencv/03_imgproc_module/17_affine_transformations/build/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+/home/xhy/cv/myopencv/03_imgproc_module/17_affine_transformations/build/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
+/home/xhy/cv/myopencv/03_imgproc_module/17_affine_transformations/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_cb207.dir

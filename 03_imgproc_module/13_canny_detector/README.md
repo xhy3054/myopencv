@@ -38,7 +38,7 @@ void cv::Canny	(	InputArray 	image,
 并且在这个程序中使用了函数`copyTo()`的重载功能：
 ```cpp
 void cv::Mat::copyTo	(	OutputArray 	m,
-InputArray 	mask 
+							InputArray 	mask 
 )		const
 ```
 ---
