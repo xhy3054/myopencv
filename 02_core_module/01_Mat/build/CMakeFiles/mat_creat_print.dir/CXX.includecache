@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/xhy/cv/myopencv/004_Mat/mat_creat_print.cpp
+/home/xhy/cv/myopencv/02_core_module/01_Mat/mat_creat_print.cpp
 opencv2/core.hpp
-/home/xhy/cv/myopencv/004_Mat/opencv2/core.hpp
+/home/xhy/cv/myopencv/02_core_module/01_Mat/opencv2/core.hpp
 iostream
 -
 
@@ -1319,4 +1319,42 @@ opencv2/videostab/global_motion.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/log.hpp
+
+/usr/local/include/opencv2/viz.hpp
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+opencv2/viz/viz3d.hpp
+-
+opencv2/viz/vizcore.hpp
+-
+
+/usr/local/include/opencv2/viz/types.hpp
+string
+-
+opencv2/core.hpp
+-
+opencv2/core/affine.hpp
+-
+
+/usr/local/include/opencv2/viz/viz3d.hpp
+opencv2/core.hpp
+-
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+
+/usr/local/include/opencv2/viz/vizcore.hpp
+opencv2/viz/types.hpp
+-
+opencv2/viz/widgets.hpp
+-
+opencv2/viz/viz3d.hpp
+-
+
+/usr/local/include/opencv2/viz/widgets.hpp
+opencv2/viz/types.hpp
+-
 

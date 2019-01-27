@@ -92,6 +92,7 @@ smoothing_image: CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o
 smoothing_image: CMakeFiles/smoothing_image.dir/build.make
 smoothing_image: /usr/local/lib/libopencv_superres.so.3.4.1
 smoothing_image: /usr/local/lib/libopencv_dnn.so.3.4.1
+smoothing_image: /usr/local/lib/libopencv_viz.so.3.4.1
 smoothing_image: /usr/local/lib/libopencv_videostab.so.3.4.1
 smoothing_image: /usr/local/lib/libopencv_shape.so.3.4.1
 smoothing_image: /usr/local/lib/libopencv_objdetect.so.3.4.1

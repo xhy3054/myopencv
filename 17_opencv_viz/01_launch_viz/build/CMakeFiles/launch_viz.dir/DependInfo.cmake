@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xhy/cv/myopencv/11_opencv_viz/01_launch_viz/launch_viz.cpp" "/home/xhy/cv/myopencv/11_opencv_viz/01_launch_viz/build/CMakeFiles/launch_viz.dir/launch_viz.cpp.o"
+  "/home/xhy/cv/myopencv/17_opencv_viz/01_launch_viz/launch_viz.cpp" "/home/xhy/cv/myopencv/17_opencv_viz/01_launch_viz/build/CMakeFiles/launch_viz.dir/launch_viz.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

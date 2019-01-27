@@ -12,8 +12,8 @@ using std::endl;
 
 const char* keys =
     "{ help h |                          | Print help message. }"
-    "{ input1 | ../data/box.png          | Path to input image 1. }"
-    "{ input2 | ../data/box_in_scene.png | Path to input image 2. }";
+    "{ input1 | ../data/01.jpg          | Path to input image 1. }"
+    "{ input2 | ../data/02.jpg | Path to input image 2. }";
 
 int main( int argc, char* argv[] )
 {
@@ -28,7 +28,7 @@ int main( int argc, char* argv[] )
     }
 
     //-- Step 1: Detect the keypoints using SURF Detector, compute the descriptors
-    int minHessian = 400;
+    int minHessian = 2000;
     Ptr<SURF> detector = SURF::create( minHessian );
     std::vector<KeyPoint> keypoints1, keypoints2;
     Mat descriptors1, descriptors2;

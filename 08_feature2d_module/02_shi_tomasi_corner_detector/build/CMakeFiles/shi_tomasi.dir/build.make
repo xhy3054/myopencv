@@ -92,6 +92,7 @@ shi_tomasi: CMakeFiles/shi_tomasi.dir/shi_tomasi.cpp.o
 shi_tomasi: CMakeFiles/shi_tomasi.dir/build.make
 shi_tomasi: /usr/local/lib/libopencv_superres.so.3.4.1
 shi_tomasi: /usr/local/lib/libopencv_dnn.so.3.4.1
+shi_tomasi: /usr/local/lib/libopencv_viz.so.3.4.1
 shi_tomasi: /usr/local/lib/libopencv_videostab.so.3.4.1
 shi_tomasi: /usr/local/lib/libopencv_shape.so.3.4.1
 shi_tomasi: /usr/local/lib/libopencv_objdetect.so.3.4.1

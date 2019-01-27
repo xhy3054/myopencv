@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xhy/cv/myopencv/004_Mat/mat_creat_print.cpp" "/home/xhy/cv/myopencv/004_Mat/build/CMakeFiles/mat_creat_print.dir/mat_creat_print.cpp.o"
+  "/home/xhy/cv/myopencv/02_core_module/01_Mat/mat_creat_print.cpp" "/home/xhy/cv/myopencv/02_core_module/01_Mat/build/CMakeFiles/mat_creat_print.dir/mat_creat_print.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

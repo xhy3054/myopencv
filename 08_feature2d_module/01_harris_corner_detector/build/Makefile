@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named harris_corner_detector1
-
-# Build rule for target.
-harris_corner_detector1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 harris_corner_detector1
-.PHONY : harris_corner_detector1
-
-# fast build rule for target.
-harris_corner_detector1/fast:
-	$(MAKE) -f CMakeFiles/harris_corner_detector1.dir/build.make CMakeFiles/harris_corner_detector1.dir/build
-.PHONY : harris_corner_detector1/fast
-
-#=============================================================================
 # Target rules for targets named harris_corner_detector
 
 # Build rule for target.
@@ -163,33 +150,6 @@ harris_corner_detector.cpp.s:
 	$(MAKE) -f CMakeFiles/harris_corner_detector.dir/build.make CMakeFiles/harris_corner_detector.dir/harris_corner_detector.cpp.s
 .PHONY : harris_corner_detector.cpp.s
 
-harris_corner_detector1.o: harris_corner_detector1.cpp.o
-
-.PHONY : harris_corner_detector1.o
-
-# target to build an object file
-harris_corner_detector1.cpp.o:
-	$(MAKE) -f CMakeFiles/harris_corner_detector1.dir/build.make CMakeFiles/harris_corner_detector1.dir/harris_corner_detector1.cpp.o
-.PHONY : harris_corner_detector1.cpp.o
-
-harris_corner_detector1.i: harris_corner_detector1.cpp.i
-
-.PHONY : harris_corner_detector1.i
-
-# target to preprocess a source file
-harris_corner_detector1.cpp.i:
-	$(MAKE) -f CMakeFiles/harris_corner_detector1.dir/build.make CMakeFiles/harris_corner_detector1.dir/harris_corner_detector1.cpp.i
-.PHONY : harris_corner_detector1.cpp.i
-
-harris_corner_detector1.s: harris_corner_detector1.cpp.s
-
-.PHONY : harris_corner_detector1.s
-
-# target to generate assembly for a file
-harris_corner_detector1.cpp.s:
-	$(MAKE) -f CMakeFiles/harris_corner_detector1.dir/build.make CMakeFiles/harris_corner_detector1.dir/harris_corner_detector1.cpp.s
-.PHONY : harris_corner_detector1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... harris_corner_detector1"
 	@echo "... harris_corner_detector"
 	@echo "... harris_corner_detector.o"
 	@echo "... harris_corner_detector.i"
 	@echo "... harris_corner_detector.s"
-	@echo "... harris_corner_detector1.o"
-	@echo "... harris_corner_detector1.i"
-	@echo "... harris_corner_detector1.s"
 .PHONY : help
 
 

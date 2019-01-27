@@ -60,43 +60,6 @@ CMAKE_SOURCE_DIR = /home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_de
 CMAKE_BINARY_DIR = /home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_detector/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/harris_corner_detector1.dir
-
-# All Build rule for target.
-CMakeFiles/harris_corner_detector1.dir/all:
-	$(MAKE) -f CMakeFiles/harris_corner_detector1.dir/build.make CMakeFiles/harris_corner_detector1.dir/depend
-	$(MAKE) -f CMakeFiles/harris_corner_detector1.dir/build.make CMakeFiles/harris_corner_detector1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_detector/build/CMakeFiles --progress-num=3,4 "Built target harris_corner_detector1"
-.PHONY : CMakeFiles/harris_corner_detector1.dir/all
-
-# Include target in all.
-all: CMakeFiles/harris_corner_detector1.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/harris_corner_detector1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_detector/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/harris_corner_detector1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_detector/build/CMakeFiles 0
-.PHONY : CMakeFiles/harris_corner_detector1.dir/rule
-
-# Convenience name for target.
-harris_corner_detector1: CMakeFiles/harris_corner_detector1.dir/rule
-
-.PHONY : harris_corner_detector1
-
-# clean rule for target.
-CMakeFiles/harris_corner_detector1.dir/clean:
-	$(MAKE) -f CMakeFiles/harris_corner_detector1.dir/build.make CMakeFiles/harris_corner_detector1.dir/clean
-.PHONY : CMakeFiles/harris_corner_detector1.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/harris_corner_detector1.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/harris_corner_detector.dir
 
 # All Build rule for target.

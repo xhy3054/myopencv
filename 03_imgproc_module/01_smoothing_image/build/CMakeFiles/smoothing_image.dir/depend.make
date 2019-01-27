@@ -130,4 +130,9 @@ CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2
 CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/videostab/ring_buffer.hpp
 CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/videostab/wobble_suppression.hpp
+CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/viz.hpp
+CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/viz/types.hpp
+CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/viz/viz3d.hpp
+CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/viz/vizcore.hpp
+CMakeFiles/smoothing_image.dir/smoothing_image.cpp.o: /usr/local/include/opencv2/viz/widgets.hpp
 

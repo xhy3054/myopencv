@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named orb_detection
+
+# Build rule for target.
+orb_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 orb_detection
+.PHONY : orb_detection
+
+# fast build rule for target.
+orb_detection/fast:
+	$(MAKE) -f CMakeFiles/orb_detection.dir/build.make CMakeFiles/orb_detection.dir/build
+.PHONY : orb_detection/fast
+
+#=============================================================================
 # Target rules for targets named feature_detection
 
 # Build rule for target.
@@ -150,6 +163,33 @@ feature_detection.cpp.s:
 	$(MAKE) -f CMakeFiles/feature_detection.dir/build.make CMakeFiles/feature_detection.dir/feature_detection.cpp.s
 .PHONY : feature_detection.cpp.s
 
+orb_detection.o: orb_detection.cpp.o
+
+.PHONY : orb_detection.o
+
+# target to build an object file
+orb_detection.cpp.o:
+	$(MAKE) -f CMakeFiles/orb_detection.dir/build.make CMakeFiles/orb_detection.dir/orb_detection.cpp.o
+.PHONY : orb_detection.cpp.o
+
+orb_detection.i: orb_detection.cpp.i
+
+.PHONY : orb_detection.i
+
+# target to preprocess a source file
+orb_detection.cpp.i:
+	$(MAKE) -f CMakeFiles/orb_detection.dir/build.make CMakeFiles/orb_detection.dir/orb_detection.cpp.i
+.PHONY : orb_detection.cpp.i
+
+orb_detection.s: orb_detection.cpp.s
+
+.PHONY : orb_detection.s
+
+# target to generate assembly for a file
+orb_detection.cpp.s:
+	$(MAKE) -f CMakeFiles/orb_detection.dir/build.make CMakeFiles/orb_detection.dir/orb_detection.cpp.s
+.PHONY : orb_detection.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... orb_detection"
 	@echo "... feature_detection"
 	@echo "... feature_detection.o"
 	@echo "... feature_detection.i"
 	@echo "... feature_detection.s"
+	@echo "... orb_detection.o"
+	@echo "... orb_detection.i"
+	@echo "... orb_detection.s"
 .PHONY : help
 
 

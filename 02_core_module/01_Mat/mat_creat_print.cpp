@@ -26,13 +26,13 @@ int main(int,char**)
     // create by using the constructor
     //! [constructor]
     Mat M(2,2, CV_8UC3, Scalar(0,0,255));
-    cout << "M(2,2, CV_8UC3, Scalar(0,0,255)) = " << endl << " " << M << endl << endl;
+    cout << "M(2,2, CV_8UC3, Scalar(0,0,255)) = " << endl << " " << M << endl << "M.flags = " << M.flags << endl << "M.rows = " << M.rows << endl << "M.cols =" << M.cols << endl << "M.dims = " << M.dims << endl << "M.size = " << M.size << endl << "M.type() = " << M.type() << endl << "M.step = " << M.step << endl << endl;
     //! [constructor]
 
     // create by using the create function()
     //! [create]
     M.create(4,4, CV_8UC(2));
-    cout << "M.create(4,4, CV_8UC(2))= "<< endl << " "  << M << endl << endl;
+    cout << "M.create(4,4, CV_8UC(2))= "<< endl << " "  << M << endl << "M.flags = " << M.flags << endl << "M.rows = " << M.rows << endl << "M.cols =" << M.cols << endl << "M.dims = " << M.dims << endl << "M.size = " << M.size << endl << "M.type() = " << M.type() << endl << "M.step = " << M.step << endl << endl;
     //! [create]
 
     // create multidimensional matrices
