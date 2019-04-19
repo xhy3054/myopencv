@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/16_remap/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/16_remap/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/16_remap/build/CMakeFiles/remap.dir

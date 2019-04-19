@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/02_core_module/10-file_input_output/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/02_core_module/10-file_input_output/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/02_core_module/10-file_input_output/build/CMakeFiles/file_input_output.dir

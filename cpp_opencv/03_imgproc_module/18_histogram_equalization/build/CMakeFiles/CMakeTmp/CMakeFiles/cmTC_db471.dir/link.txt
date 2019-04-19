@@ -1,0 +1,1 @@
+/usr/bin/cc       CMakeFiles/cmTC_db471.dir/feature_tests.c.o  -o cmTC_db471 -rdynamic 

@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/02_core_module/06_change_contrast_and_brightness/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/02_core_module/06_change_contrast_and_brightness/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/02_core_module/06_change_contrast_and_brightness/build/CMakeFiles/change_contrast_brightness.dir

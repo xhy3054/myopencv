@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/10_copyMakeBorder/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/10_copyMakeBorder/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/10_copyMakeBorder/build/CMakeFiles/copymakeborder.dir

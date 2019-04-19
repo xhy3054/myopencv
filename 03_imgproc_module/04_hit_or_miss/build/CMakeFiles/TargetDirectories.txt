@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/04_hit_or_miss/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/04_hit_or_miss/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/04_hit_or_miss/build/CMakeFiles/hit_or_miss.dir

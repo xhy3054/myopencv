@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/17_affine_transformations/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/17_affine_transformations/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/17_affine_transformations/build/CMakeFiles/affine_transformations.dir

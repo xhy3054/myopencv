@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/02_core_module/08_random_generator_text_drawing/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/02_core_module/08_random_generator_text_drawing/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/02_core_module/08_random_generator_text_drawing/build/CMakeFiles/Drawing_2.dir

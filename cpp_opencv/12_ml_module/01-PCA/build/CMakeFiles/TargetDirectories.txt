@@ -1,0 +1,4 @@
+/home/xhy/cv/myopencv/12_ml_module/01-PCA/build/CMakeFiles/rebuild_cache.dir
+/home/xhy/cv/myopencv/12_ml_module/01-PCA/build/CMakeFiles/edit_cache.dir
+/home/xhy/cv/myopencv/12_ml_module/01-PCA/build/CMakeFiles/pca_face.dir
+/home/xhy/cv/myopencv/12_ml_module/01-PCA/build/CMakeFiles/pca_basic.dir

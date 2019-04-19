@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_detector/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_detector/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/08_feature2d_module/01_harris_corner_detector/build/CMakeFiles/harris_corner_detector.dir

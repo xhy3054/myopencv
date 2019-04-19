@@ -1,4 +1,0 @@
-/home/xhy/cv/myopencv/08_feature2d_module/05_feature_detection/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/08_feature2d_module/05_feature_detection/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/08_feature2d_module/05_feature_detection/build/CMakeFiles/orb_detection.dir
-/home/xhy/cv/myopencv/08_feature2d_module/05_feature_detection/build/CMakeFiles/feature_detection.dir

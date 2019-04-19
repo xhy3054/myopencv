@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/15_hough_circles/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/15_hough_circles/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/15_hough_circles/build/CMakeFiles/houghcircles.dir

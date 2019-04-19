@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/03_more_morphology/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/03_more_morphology/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/03_more_morphology/build/CMakeFiles/more_morphology.dir

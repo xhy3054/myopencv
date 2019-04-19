@@ -1,4 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/25_bounding_boxes_and_circles/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/25_bounding_boxes_and_circles/build/CMakeFiles/bounding_boxes_and_circles1.dir
-/home/xhy/cv/myopencv/03_imgproc_module/25_bounding_boxes_and_circles/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/25_bounding_boxes_and_circles/build/CMakeFiles/bounding_boxes_and_circles.dir

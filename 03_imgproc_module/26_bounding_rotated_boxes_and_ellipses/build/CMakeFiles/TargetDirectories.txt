@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/26_bounding_rotated_boxes_and_ellipses/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/26_bounding_rotated_boxes_and_ellipses/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/26_bounding_rotated_boxes_and_ellipses/build/CMakeFiles/bounding_rotated_boxes_and_ellipses.dir

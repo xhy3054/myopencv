@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/06_image_pyramids/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/06_image_pyramids/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/06_image_pyramids/build/CMakeFiles/image_pyramids.dir

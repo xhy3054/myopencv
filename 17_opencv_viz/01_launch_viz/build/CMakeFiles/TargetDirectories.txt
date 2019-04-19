@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/17_opencv_viz/01_launch_viz/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/17_opencv_viz/01_launch_viz/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/17_opencv_viz/01_launch_viz/build/CMakeFiles/launch_viz.dir

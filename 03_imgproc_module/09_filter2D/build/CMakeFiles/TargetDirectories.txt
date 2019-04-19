@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/09_filter2D/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/09_filter2D/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/09_filter2D/build/CMakeFiles/filter2D.dir
