@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/08_feature2d_module/12_opencv_kmeans/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/08_feature2d_module/12_opencv_kmeans/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/08_feature2d_module/12_opencv_kmeans/build/CMakeFiles/kmeans_test.dir

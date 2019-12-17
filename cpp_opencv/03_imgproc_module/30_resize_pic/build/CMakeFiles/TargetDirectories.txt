@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/03_imgproc_module/30_resize_pic/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/30_resize_pic/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/03_imgproc_module/30_resize_pic/build/CMakeFiles/resize_pic.dir

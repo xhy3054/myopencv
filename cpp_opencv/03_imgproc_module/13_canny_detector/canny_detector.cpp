@@ -43,12 +43,13 @@ static void CannyThreshold(int, void*)
     //![fill]
 
     //重载的功能，将第二个参数不为0的位置处的src的值拷贝到dst
+	//此处作用是生成彩色的轮廓信息
     src.copyTo( dst, detected_edges);
     //![copyto]
 
     //![display]
     imshow( window_name, dst );
-    //![display]
+    //![display] 
 	imshow("canny_result", detected_edges);
 }
 
@@ -59,7 +60,7 @@ static void CannyThreshold(int, void*)
 int main( int argc, char** argv )
 {
   //![load]
-  CommandLineParser parser( argc, argv, "{@input | ../../data/village.jpg | input image}" );
+  CommandLineParser parser( argc, argv, "{@input | /home/xianghengyong/Dataset/sample.png | input image}" );
   src = imread( parser.get<String>( "@input" ), IMREAD_COLOR ); // Load an image
 
   if( src.empty() )
@@ -74,7 +75,7 @@ int main( int argc, char** argv )
   /// Create a matrix of the same type and size as src (for dst)
   dst.create( src.size(), src.type() );
   //![create_mat]
-
+  imshow("src_image", src);
   // 生成原图的灰度图
   cvtColor( src, src_gray, COLOR_BGR2GRAY );
   //![convert_to_gray]

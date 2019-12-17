@@ -14,7 +14,7 @@ int main(int argc, char** argv){
         return 1;
     }
 
-    Size sz(300,200);
+    Size sz(295,413);
     Mat dst;
     resize(src, dst, sz);
     imshow("dst", dst);
