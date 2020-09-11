@@ -1,0 +1,3 @@
+/home/xhy/workspaces/repo/myopencv/cpp_opencv/08_feature2d_module/16_sift/build/CMakeFiles/rebuild_cache.dir
+/home/xhy/workspaces/repo/myopencv/cpp_opencv/08_feature2d_module/16_sift/build/CMakeFiles/test_sift.dir
+/home/xhy/workspaces/repo/myopencv/cpp_opencv/08_feature2d_module/16_sift/build/CMakeFiles/edit_cache.dir

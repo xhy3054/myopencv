@@ -1,3 +1,0 @@
-/home/xhy/cv/myopencv/06_videoio_module/03_frame_rate/build/CMakeFiles/rebuild_cache.dir
-/home/xhy/cv/myopencv/06_videoio_module/03_frame_rate/build/CMakeFiles/edit_cache.dir
-/home/xhy/cv/myopencv/06_videoio_module/03_frame_rate/build/CMakeFiles/fps.dir

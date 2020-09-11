@@ -7,7 +7,7 @@ int main( int argc, char** argv )
 {
     double alpha = 1.0; /*< Simple contrast control */
     int beta = 0;       /*< Simple brightness control */
-    String imageName("../../data/wechat.jpg"); // by default
+    String imageName("zhou.png"); // by default
     if (argc > 1)
     {
         imageName = argv[1];
