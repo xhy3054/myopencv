@@ -70,3 +70,8 @@ e/OpenCV /usr/share/opencv /usr/share/OpenCV /usr/local/bin/opencv* /usr
 
 > 指定路径上的不同版本的opencv互相不干扰
 
+# 常见问题
+
+1. 在cmake时会从raw.githubusercontent.com下载很多数据，但是这个网站会存在不能访问的情况；
+解决方法：查询其ip，并将其写入`/etc/hosts`中，直接ip访问是可以的。
+
