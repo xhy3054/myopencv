@@ -39,6 +39,13 @@ make
 sudo make install
 ```
 ---
+
+## 编译打开gpu支持
+
+```bash
+cmake  -DWITH_GTK_2_X=ON -DCMAKE_INSTALL_PREFIX=/usr/local -DCMAKE_BUILD_TYPE=RELEASE -DWITH_TBB=ON  -DWITH_V4L=ON    -DWITH_OPENGL=ON -DENABLE_FAST_MATH=1 -DCUDA_FAST_MATH=1 -DWITH_CUBLAS=1 -DWITH_OPENMP=ON -D BUILD_TIFF=ON  -D OPENCV_ENABLE_NONFREE=1   -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-3.4.1/modules ..
+```
+
 ### cmake使用指定路径上的opencv
 ```cmake
 cmake_minimum_required(VERSION 3.5)
@@ -72,6 +79,9 @@ e/OpenCV /usr/share/opencv /usr/share/OpenCV /usr/local/bin/opencv* /usr
 
 # 常见问题
 
-1. 在cmake时会从raw.githubusercontent.com下载很多数据，但是这个网站会存在不能访问的情况；
-解决方法：查询其ip，并将其写入`/etc/hosts`中，直接ip访问是可以的。
+- 在cmake时会从raw.githubusercontent.com下载很多数据，但是这个网站会存在不能访问的情况；解决方法：
+
+1. 查询其ip，并将其写入`/etc/hosts`中，直接ip访问是可以的。
+
+2. `wget https://github.com/opencv/opencv_3rdparty/blob/ippicv/master_20170822/ippicv/ippicv_2017u3_lnx_intel64_general_20170822.tgz`下载对应版本的数据，然后修改`ippicv.cmake`中`https://raw.githubusercontent.com/opencv/opencv_3rdparty/${IPPICV_COMMIT}/ippicv/`为`file:///home/yons/Documents/opencv-3.4.1/3rdparty/ippicv/downloads/`
 
