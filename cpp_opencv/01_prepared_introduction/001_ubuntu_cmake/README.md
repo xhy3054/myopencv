@@ -68,10 +68,7 @@ target_link_libraries( harris_corner_detector ${OpenCV_LIBS} )
 sudo make uninstall
 cd ..
 rm -r build
-sudo rm -r /usr/local/include/opencv2 /usr/local/include/opencv /usr/inc
-lude/opencv /usr/include/opencv2 /usr/local/share/opencv /usr/local/shar
-e/OpenCV /usr/share/opencv /usr/share/OpenCV /usr/local/bin/opencv* /usr
-/local/lib/libopencv*
+sudo rm -r /usr/local/include/opencv2 /usr/local/include/opencv /usr/include/opencv /usr/include/opencv2 /usr/local/share/opencv /usr/local/share/OpenCV /usr/share/opencv /usr/share/OpenCV /usr/local/bin/opencv* /usr/local/lib/libopencv*
 ```
 ---
 
